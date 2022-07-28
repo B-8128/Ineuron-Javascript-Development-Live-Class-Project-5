@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-image: url(./assets/bg.png);
+}
+
+
+/* navbar  */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    height: 80px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: #fff;
+    position: absolute;
+    left: 18%;
+    top: 5%;
+}
+
+.list i {
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+.list-item {
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.logo {
+    margin-left: -100px;
+    margin-top: 14px;
+}
+
+.line {
+    border-right: 2px solid #fff;
+    position: relative;
+    left: -20%;
+    height: 55%;
+    margin-top: 19px;
+    margin-left: -30px;
+}
+
+.button-small {
+    padding: 7px 30px;
+    position: absolute;
+    top: 4%;
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 5px;
+    left: 85%;
+    color: #fff;
+}
+
+
+/* Hero Section  */
+
+.hero {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.hero-heading {
+    font-size: 4.5rem;
+    width: 50%;
+    color: #fff;
+    margin-left: 350px;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.button-large {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ba0cc5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
